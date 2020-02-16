@@ -1,0 +1,29 @@
+.ButtonContainer {
+  flex: 1;
+  align-items: center;
+}
+
+.buttonContent {
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 6px;
+}
+
+.imageContainer {
+  flex: 0.3;
+}
+
+.textInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.7;
+}
+
+@media only screen and (max-width: 620px) {
+}
+
+@media only screen and (max-width: 375px) {
+}

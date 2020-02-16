@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const HomePage: React.SFC = () => {
-    return <div>Hello, I am a function component</div>;
+const HomePage: React.FC = () => {
+    // TODO: Make login here.
+    return <h1>Login</h1>;
 };
 
 export default HomePage;

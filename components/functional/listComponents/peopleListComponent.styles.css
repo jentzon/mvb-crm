@@ -1,0 +1,35 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  margin: 6px;
+}
+
+.imageWrapper {
+  flex: 0.3;
+}
+
+.logoWrapper {
+  flex: 0.1;
+}
+
+.nameWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  margin-left: 4px;
+}
+
+.image {
+  width: 64px;
+  margin: 4;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 620px) {
+  .image {
+    width: 36px;
+    margin: 4;
+  }
+}

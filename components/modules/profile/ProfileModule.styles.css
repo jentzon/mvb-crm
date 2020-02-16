@@ -1,0 +1,65 @@
+.ProfileModule {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileModuleContent {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+
+.profileInfoContent {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  padding: 24px;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profileImage {
+  max-width: 100%;
+  border-radius: 24px;
+  height: auto;
+}
+
+.profileInfoTextContainer {
+  text-align: center;
+}
+
+.colleaguesInfoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.5;
+  padding: 24px;
+}
+
+.peopleList {
+  max-height: 320px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  -ms-overflow-style: none;
+}
+
+.peopleList::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .colleaguesInfoContent, .profileInfoContent {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .colleaguesInfoContent, .profileInfoContent  {
+    padding: 6px;
+  }
+}

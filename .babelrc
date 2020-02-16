@@ -6,7 +6,9 @@
       {
         "root": ["./"],
         "alias": {
-          "@components": "./components"
+          "@components": "./components",
+          "@redux": "./data/redux",
+          "@api": "./data/calls"
         }
       }
     ]

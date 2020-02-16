@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "id": "profID",
+    "firstName": "Johan",
+    "lastName": "Lorentzon",
+    "accessRole": "admin",
+    "title": "developer",
+    "officeRegion": "Göteborg",
+    "group": "someGroup"
+  },
+  "project": {
+    "id": "id",
+    "status": "upcoming",
+    "region": "Göteborg",
+    "conractType": "Totalentreprenad",
+    "buildingType": "Skola",
+    "startsIn": "202008",
+    "endsIn": "",
+    "clientInformation": {
+      "id": "clientCardID",
+      "name": "Familjebostäder",
+      "contactEmail": "someMail@mail.se",
+      "contactPhoneNumber": "0000"
+    },
+    "organization": {
+      "KAL": "Kal Kyl",
+      "RC": "Region Chef",
+      "AC": "Arbets Chef",
+      "PC": ["Plats Chef"],
+      "AL": ["Arbets Ledarett", "Arbets Ledartvå"]
+    }
+  },
+    "projectEconomics": {
+      "projectId": "id",
+      "budget": 0,
+      "forecasts": {
+        "2020Q1": {},
+        "2020Q2": {}
+      },
+      "billedAmount": 0,
+      "purchasedAmount": 0
+    },
+    "clientCard": {
+      "clientId": "clientCardID",
+      "name": "Familjebostäder"
+    }
+}

@@ -1,0 +1,25 @@
+.Overview {
+  display: grid;
+
+  height: 100%;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 48% 48%;
+
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Overview {
+    grid-template-columns: 96%;
+    grid-template-rows: 24% 24% 24% 24%;
+
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+}

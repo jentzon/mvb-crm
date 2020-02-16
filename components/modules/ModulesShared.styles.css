@@ -1,0 +1,21 @@
+.Module {
+  height: 380px;
+  background-color: rgba(249, 221, 22, 0.7);
+  border-radius: 12px;
+  margin: 6px;
+}
+
+.Module .text {
+  color: black;
+}
+
+.Module .loadingText {
+  padding-top: 20px;
+}
+
+.moduleHeader {
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 375px) {
+}

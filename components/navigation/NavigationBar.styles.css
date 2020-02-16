@@ -1,0 +1,139 @@
+.NavigationBar {
+  height: 70px;
+  width: 100%;
+
+  background-color: rgba(0,0,0,0);
+
+  border-bottom-style: solid;
+  border-bottom-color: RGB(249, 221, 22);
+  border-bottom-width: 5px;
+
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-bottom: 10px;
+}
+
+.arrowImg {
+  height: 24px;
+  margin-left: 12px;
+}
+
+.arrowImgSelected {
+  height: 36px;
+  margin-left: 12px;
+}
+
+.navBarBox {
+  color: #000;
+  
+  display: flex;
+  flex: 0.2;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBarBoxSelected {
+  background-color: RGB(249, 221, 22);
+  color: #000;
+  font-weight: 900;
+
+  display: flex;
+  flex: 0.2;
+  justify-content: center;
+  align-items: center;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navBarBoxSelectedTitle {
+  font-size: 22px; 
+}
+
+.navBarBoxTitle {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navBarBox:link {
+  text-decoration: none;
+}
+
+.navBarBoxSelected:link {
+  text-decoration: none;
+  color: #000;
+  outline: none !important;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.navBarBox:focus, .navBarBox:hover {
+  outline: none !important;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(249, 221, 22, 0.5);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navBarBoxSelected:hover, .navBarBox:active {
+  outline: none !important;
+  text-decoration: none;
+  color: #000;
+}
+
+@media only screen and (max-width: 720px) {
+  .navBarBoxSelectedTitle {
+    font-size: 16px; 
+  }
+
+  .navBarBoxTitle {
+    font-size: 12px;
+  }
+
+  .arrowImg {
+    height: 12px;
+    margin-left: 6px;
+  }
+  
+  .arrowImgSelected {
+    height: 18px;
+    margin-left: 8px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .navBarBoxSelectedTitle {
+    font-size: 12px; 
+  }
+
+  .navBarBoxTitle {
+    font-size: 10px;
+  }
+
+  .arrowImg {
+    height: 8px;
+    margin-left: 4px;
+  }
+  
+  .arrowImgSelected {
+    height: 12px;
+    margin-left: 4px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+}

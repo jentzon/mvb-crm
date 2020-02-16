@@ -11,7 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run eslint ./pages/**"
+      "pre-commit": "yarn run eslint ./components/**/*.tsx ./pages/**/*.tsx ./helpers/*.ts"
     }
   },
   "keywords": [],
@@ -20,12 +20,22 @@
   "dependencies": {
     "@types/react-redux": "^7.1.7",
     "@types/redux": "^3.6.0",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
     "next": "^9.2.1",
+    "next-redux-wrapper": "^4.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-icons": "^3.9.0",
     "react-redux": "^7.1.3",
-    "redux": "^4.0.5"
+    "react-spinners": "^0.8.0",
+    "react-tooltip": "^4.0.3",
+    "react-vis": "^1.11.7",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6"
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
@@ -37,6 +47,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
+    "file-loader": "^5.0.2",
     "husky": "^4.2.3",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"

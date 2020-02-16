@@ -1,0 +1,51 @@
+.MonitoringModule {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.monitoringModuleContent {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+
+.monitoringInfoContent {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.monitoringImage {
+  width: 124px;
+}
+
+.monitoringInfoTextContainer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.monitoringListInfoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.6;
+  padding: 24px;
+}
+
+.monitoringList {
+  max-height: 320px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  -ms-overflow-style: none;
+}
+
+.monitoringList::-webkit-scrollbar {
+  display: none;
+}
