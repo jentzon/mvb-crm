@@ -1,11 +1,10 @@
 import colorTheme from '../colorThemes/defaultColorTheme';
 
-// TODO: Make possible to choose which modules and pages to be available.
-export const defaultConfig = {
+export const defaultConfig: BrandConfiguration = {
     companyName: 'DEMO',
+    brand: 'demo',
     colorTheme,
     enabledOverviewModules: [],
-    enabledPageModules: [],
 };
 
 export default defaultConfig;

@@ -20,7 +20,8 @@
     "jsx": "preserve",
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["./components/*"]
+      "@components/*": ["./components/*"],
+      "@redux/*": ["./data/redux/*"],
     }
   },
   "exclude": [
@@ -28,6 +29,7 @@
   ],
   "include": [
     "next-env.d.ts",
+    "interfaces.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ]
