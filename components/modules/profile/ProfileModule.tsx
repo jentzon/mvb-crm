@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 
 // DATA
 import { connect } from 'react-redux';
-import { getProfileOverviewData } from '../../../data/redux/selectors';
-import { setProfileOverviewData } from '../../../data/redux/actions';
+import { getProfileOverviewData } from '../../../data/redux/overview/selectors';
+import { setProfileOverviewData } from '../../../data/redux/overview/actionCreator';
 import { fetchProfileOverview } from '../../../data/calls/overviewCalls';
 import { fetchProfileListOfColleagues } from '../../../data/calls/profileCalls';
 

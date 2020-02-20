@@ -15,6 +15,7 @@ import './styles.css';
 import '../components/navigation/NavigationBar.styles.css';
 import '../components/functional/listComponents/monitoringProjectListComponent.styles.css';
 import '../components/functional/listComponents/peopleListComponent.styles.css';
+import '../components/functional/login/loginForm.styles.css';
 import '../components/modules/ModulesShared.styles.css'; // <--- Module
 import '../components/modules/economy/EconomyModule.styles.css'; // <--- Module
 import '../components/modules/monitoring/MonitoringModule.styles.css'; // <--- Module

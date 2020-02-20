@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 // DATA
 import { connect } from 'react-redux';
-import { getProjectsOverviewData } from '../../../data/redux/selectors';
-import { setProjectsOverviewData } from '../../../data/redux/actions';
+import { getProjectsOverviewData } from '../../../data/redux/overview/selectors';
+import { setProjectsOverviewData } from '../../../data/redux/overview/actionCreator';
 import { fetchProjectOverview } from '../../../data/calls/overviewCalls';
 
 import LoadingSpinner from '@components/functional/moduleLoadingSpinner/ModuleLoadingSpinner';

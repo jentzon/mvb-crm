@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 // DATA
 import { connect } from 'react-redux';
 import { fetchMonitoringOverview } from '../../../data/calls/overviewCalls';
-import { getMonitoringOverviewData } from '../../../data/redux/selectors';
-import { setMonitoringOverviewData } from '../../../data/redux/actions';
+import { getMonitoringOverviewData } from '../../../data/redux/overview/selectors';
+import { setMonitoringOverviewData } from '../../../data/redux/overview/actionCreator';
 
 // COMPONENTS
 import LoadingSpinner from '../../../components/functional/moduleLoadingSpinner/ModuleLoadingSpinner';

@@ -5,6 +5,7 @@ import {
     SET_PROJECTS_OVERVIEW,
 } from './actionTypes';
 
+// OVERVIEW
 export const setEconomyOverviewData = data => ({
     type: SET_ECONOMY_OVERVIEW_DATA,
     payload: {

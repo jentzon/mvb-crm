@@ -3,7 +3,7 @@ import {
     SET_MONITORING_OVERVIEW_DATA,
     SET_PROFILE_OVERVIEW_DATA,
     SET_PROJECTS_OVERVIEW,
-} from '../actionTypes';
+} from './actionTypes';
 
 const initialState = {
     monitoring: {

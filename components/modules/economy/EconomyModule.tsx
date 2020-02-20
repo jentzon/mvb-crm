@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 
 // DATA
 import { connect } from 'react-redux';
-import { getEconomyOverviewData } from '../../../data/redux/selectors';
-import { setEconomyOverviewData } from '../../../data/redux/actions';
+import { getEconomyOverviewData } from '../../../data/redux/overview/selectors';
+import { setEconomyOverviewData } from '../../../data/redux/overview/actionCreator';
 import { fetchEconomyOverview } from '../../../data/calls/overviewCalls';
 
 // COMPONENTS
